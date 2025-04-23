@@ -1,0 +1,441 @@
+
+#aba{
+    display: flex;
+    width: 100%;
+    height: 999px;
+    flex-direction: column;
+    background-color:white;
+}
+#ben1{
+    /* border:3px solid rgb(131, 235, 235); */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color:  rgb(241, 61, 61);
+    font-size:80px;
+    /* כתב נתוי */
+    font-style: italic;
+    /* עובי הכתב */
+    font-weight:bold;
+    background-color:white; /*  */
+}
+#ben2{
+    margin: 3px;
+    /* border:3px solid rgb(255, 180, 235); */
+    display: flex;
+    width: 100%;
+    height:1000px;
+    /* background-color: rgb(255, 180, 235, 0.4); */
+    flex-direction: row;
+}
+#ben3{
+    margin: 5px;
+    /* border:3px solid rgb(154, 247, 250); */
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241, 61, 61);
+    font-size:54px;
+    /* כתב נתוי */
+    font-style: italic;
+    /* עובי הכתב */
+    font-weight:bold;
+    text-align: center;
+}
+#neched1{ 
+    /* margin: 65px; */
+    /* border:3px solid rgb(192, 255, 185); */
+    display: flex;
+    flex: 11%;
+    height: 780px;    background-color: rgb(241, 61, 61);
+    flex-direction: column;
+    justify-content:center ;
+}
+/* הסל */
+#nechdon{
+ 
+    justify-content:center ;
+ 
+    /* align-items: center; */
+    border-radius:50%;  
+    width: 70px; 
+    height: 70px;
+    border:3px solid white; /*  */
+    /* font: size 5%; */
+    /* padding-left: 40px;  */
+    /* כתב נתוי */
+
+    background-color:rgb(241, 61, 61);
+ 
+  
+}
+#neched2{
+    margin: 3px;
+    /* border:3px solid rgb(229, 168, 255); */
+    display: flex;
+    flex: 89%;
+    height: 780px;
+    background-color:white;
+    flex-direction:column ;
+}
+#nin1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    /* margin:3px; */
+  
+}
+.nin2{
+    margin: 3px;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(241, 61, 61); 
+    font-style: italic;
+    /* עובי הכתב */
+    font-size: 120%;
+    font-weight:bold;
+}
+#nin3{
+    margin: 3px;
+    /* border:3px solid  rgb(255, 135, 163 ); */
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-color: white; /*  */
+    flex-wrap: wrap; 
+    overflow: scroll;
+}
+.zez1{
+    /* display: flex; */
+    flex: 50%;
+    height: 45px;
+    background-color: rgb(241, 61, 61);
+    border:3px solid rgb(13, 13, 13,0.3);
+    margin: 5px;
+    font-size:30px;
+    font-style: italic;
+    font-weight:bold;
+    /* text-align:left; */
+    padding-left: 22%;
+    /* vertical-align:middle; */
+}
+.zez1:hover{
+    background-color: white;
+color: rgb(241, 61, 61);
+border: none;
+}
+#fff{
+    height: 780px ;
+
+}
+#mq
+{ 
+    height: 760px ;
+    text-align:center;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.pct
+{
+    width: 100%;
+    height: 100%;
+    /* font-size: medium; */
+    /* color:  rgb(252, 150, 150); */
+}
+.lbls
+{
+    font-size: 35px;
+    color:  rgb(241, 61, 61);
+    font-style: italic;
+}
+#divp{
+    margin: 2px;
+    flex: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+#idpic
+{
+    position: fixed;
+    left: 10px;
+    top:10px;
+    width:100px;
+    height: 100px;
+
+}
+.sal1 {
+    /* text-align: center; */
+    /* padding: 5px; */
+    display: flex;
+    height: 60vh;
+
+}
+/* @-webkit-keyframes animatezoom {
+    from {
+    -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}  */
+.lbls
+{
+    font-size: 35px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(255, 234, 239, 0.4);/* Fallback color */
+  /*background-color: green; /* Black w/ opacity */
+    padding-top: 5%;
+}
+.modal-content {
+    direction: rtl;
+    border-radius: 50px;
+    /* background-color: #f2f2f2; */
+    height: 40%;
+    padding: 40px;
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 10px solid rgb(241, 61, 61);
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-animation: animatezoom 1.5s;
+    animation: animatezoom 1.5s
+}
+
+.close
+{
+    margin-left: 25%;
+    font-size: 40px;
+}
+#abac
+{
+    display: flex;
+    flex-direction: column;
+}
+#bn1
+{
+    display: flex;
+    flex-direction: row;
+}
+/* התמונה בסל */
+.pc
+{
+    width: 80%;
+    height: 500px;
+    margin: 5px;
+    border: 3px solid rgb(241, 61, 61);
+}
+#left
+{
+    display: flex;
+    flex-direction: column;
+}
+#right{
+    width: 80%;
+    height: 90%;
+}
+ /*Add Zoom Animation*/ 
+.lbls
+ {
+    font-size: 20px;
+ }
+.modal {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+    /* Fallback color */
+   /*background-color: green; /* Black w/ opacity */
+     padding-top: 5%;
+ }
+.modal-content {
+     direction: rtl;
+     border-radius: 10px;
+     /* background-color: #f2f2f2; */
+     height: 40%;
+     padding: 40px;
+     background-color: white; /*  */
+     margin: 5px auto; /* 15% from the top and centered */
+     border: 10px solid rgb(241, 61, 61);
+     width: 50%; /* Could be more or less, depending on screen size */
+     -webkit-animation: animatezoom 1.5s;
+     animation: animatezoom 1.5s
+ }
+ 
+.close
+ {
+     margin-left: 25%;
+     font-size: 40px; 
+ }
+#abac
+ {
+    display: flex;
+    flex-direction: column; 
+ }
+#bn1
+ {
+    display: flex;
+    flex-direction: row; 
+ }
+
+#left
+ {
+    display: flex;
+    flex-direction: column; 
+ }
+  /*Add Zoom Animation*/ 
+ 
+ 
+ @-webkit-keyframes animatezoom {
+     from {
+     -webkit-transform: scale(0)
+     }
+ 
+     to {
+         -webkit-transform: scale(1)
+     }
+ }
+ 
+ @keyframes animatezoom {
+     from {
+         transform: scale(0)
+     }
+ 
+     to {
+         transform: scale(1)
+     }
+ } 
+ #span{
+    color: white;
+    font-size: xx-large;
+}
+.pop
+{
+   
+background-color: #0a6504;
+}
+ .aaa
+{
+    display: flex;
+    border-radius: 30%;
+    border: 10px solid  rgba(255, 0, 0, 0.552);
+    width: 50%;
+    height: 30%;
+    padding: 40px;
+    background-color: #fefefe;
+    margin: 5px auto;
+    -webkit-animation: animatezoom 1.3s;
+    animation: animatezoom 1.3s
+}
+ /*,*-הכפתורים+-*/
+.button1
+ {
+    border-radius:35px;
+     background-color:rgba(241, 61, 61, 0.613);
+     /* border: 2px solid rgb(252, 150, 150); */
+     color:white; /*  */
+     padding: 10px 30px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 25px;
+     height: 15%;
+    
+ }
+ .button2
+ {
+    border-radius:35px;
+     background-color:rgba(241, 61, 61, 0.613);
+     /* border: 2px solid rgb(252, 150, 150); */
+     color:white; /*  */
+     padding: 10px 30px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 25px;
+      height: 15%;
+    
+ }
+ /* ההוספה לסל */
+#bt
+{
+    border-radius:15px;
+    background-color: rgb(241, 61, 61);
+    /* border: 2px solid rgb(252, 150, 150); */
+    color: rgb(0, 0, 0);
+    /* padding: 70% 190%; */
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 25px;
+    height: 80px;
+    width: 90%;
+    font-style: italic;
+    font-weight:bold;
+    /* margin: 3px; */
+}
+/* המיספר בסל */
+.c{
+    font-size: 15px;
+    color:rgb(241, 61, 61);
+    font-weight:bold;
+    font-style: italic;
+    flex: 25%;
+    max-width: 25%;
+
+}
+.pp{
+    font-size: 55px; 
+    color:rgb(241, 61, 61); 
+}
+ 
+#id{
+    width:100%;
+    height:100%;
+}
+.pimg {
+    height: 250px;
+
+    /* align-items: center; */
+  
+
+}
+
+.i
+{
+width: 80%;
+margin: 7%;
+}
+#price1{
+    width:20%;
+    height:20%;
+    background-color: rgb(255, 192, 192);
+} 
+#z{
+    height: 10%;
+    
+}
+
